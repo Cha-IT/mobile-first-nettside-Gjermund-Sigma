@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kos Kafé</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Hjem</a></li>
+        <li><a href="#menu">Meny</a></li>
+        <li><a href="#order">Bestill</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h1>Velkommen til Kos Kafé ☕</h1>
+      <p>Utforsk menyen vår og bestill enkelt fra mobilen!</p>
+    </section>
+
+    <section id="menu">
+      <h2>Meny</h2>
+      <ul id="menu-list">
+        <!-- Dynamisk fylt med JS -->
+      </ul>
+    </section>
+
+    <section id="order">
+      <h2>Din Bestilling</h2>
+      <input type="text" id="customer-name" placeholder="Ditt navn" required>
+      <input type="tel" id="customer-phone" placeholder="Telefonnummer" required>
+      
+      <ul id="order-list">
+        <!-- Varer som legges til i bestillingen -->
+      </ul>
+
+      <button id="submit-order">Send Bestilling</button>
+      <div id="confirmation-message" class="hidden"></div>
+    </section>
+
+    <section id="contact">
+      <h2>Kontakt Oss</h2>
+      <p>Adresse: Hyggeveien 12, 7050 Trondheim</p>
+      <p>Telefon: 12 34 56 78</p>
+      <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.1234567890123!2d10.12345678901234!3d63.12345678901234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4630d123456789ab%3A0x123456789abcdef0!2sKos%20Kaf%C3%A9!5e0!3m2!1sno!2sno!4v1234567890123" width="80%" height="250px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Kos Kafé – All rights reserved.</p>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
