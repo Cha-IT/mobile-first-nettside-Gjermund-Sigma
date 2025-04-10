@@ -1,0 +1,32 @@
+[
+    {
+        "navn": "Cappuccino",
+        "beskrivelse": "Fyldig espresso med steamet melk og et delikat melkeskum.",
+        "pris": 45
+    },
+    {
+        "navn": "Latte",
+        "beskrivelse": "Silkemyk espresso med mye melk og lett melkeskum.",
+        "pris": 50
+    },
+    {
+        "navn": "Americano",
+        "beskrivelse": "Enkel espresso med varmt vann for en mildere smak.",
+        "pris": 40
+    },
+    {
+        "navn": "Kanelbolle",
+        "beskrivelse": "Luftig og saftig kanelbolle med sukker og kanel.",
+        "pris": 35
+    },
+    {
+        "navn": "Ostekake",
+        "beskrivelse": "Kremet ostekake med en deilig bunn av kjeks.",
+        "pris": 60
+    },
+    {
+        "navn": "Croissant",
+        "beskrivelse": "Sprø og smøraktig croissant, perfekt med kaffe.",
+        "pris": 30
+    }
+]
